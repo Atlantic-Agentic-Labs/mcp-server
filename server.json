@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.atlanticagenticlabs/ask",
+  "title": "Atlantic Agentic Labs",
+  "description": "Search and read the public LightHouse™ documentation and Atlantic's published items.",
+  "version": "1.0.1",
+  "websiteUrl": "https://docs.atlanticagenticlabs.com/mcp/public/",
+  "repository": {
+    "url": "https://github.com/Atlantic-Agentic-Labs/mcp-server",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://atlanticagenticlabs.com/brand/mark-tile-1024.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "1024x1024"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ask.atlanticagenticlabs.com/mcp"
+    }
+  ]
+}
